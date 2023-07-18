@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:milk_n_munchies/screens/add_slot/location.dart';
 import 'package:milk_n_munchies/screens/add_slot/slots_radiobtn.dart';
 import 'package:milk_n_munchies/screens/add_slot/suggestion.dart';
 
@@ -14,7 +15,7 @@ class SlotsData extends StatelessWidget {
                     padding: const EdgeInsets.only(left: 30, top: 30),
                     child: TabBarView(
                       children: [
-                        const Text("Tab1"),
+                        const Location(),
                         SingleChildScrollView(
                           child: Column(
                             children: [
